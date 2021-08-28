@@ -17,7 +17,7 @@ namespace FileHandlingDemo
                 SM.WriteLine("How can we help you?");
                 SM.WriteLine("Thanks for VISITING");
 
-                SM.Flush();
+               SM.Flush();
             }
 
             StreamReader SR = new StreamReader(@"D:/wizzie/simpletext.txt");
